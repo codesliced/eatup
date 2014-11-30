@@ -1,5 +1,0 @@
-== EATUP
-
-In-progress Ruby on Rails app
-
-Stay tuned for more details.
