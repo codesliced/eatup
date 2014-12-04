@@ -10,7 +10,6 @@ deploy:
   app: eeetup
   on:
     branch: master
-    repo: codesliced/eatup
   run:
     - "rake db:migrate"
     - restart
