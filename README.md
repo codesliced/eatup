@@ -1,4 +1,4 @@
-# EATUP
+# EATUP [![Build Status](http://img.shields.io/travis/codesliced/eatup.svg)](https://travis-ci.org/codesliced/eatup)
 
 Eat dinner for free all week by smartly surveying meetup.
 
