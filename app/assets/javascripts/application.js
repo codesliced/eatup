@@ -10,8 +10,11 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require angular
+//= require angular-route
+//= require angular-rails-templates
 //= require jquery
 //= require jquery_ujs
 // Loads all Semantic javascripts
 //= require semantic-ui
-//= require_tree .
+//= require_tree ../templates
