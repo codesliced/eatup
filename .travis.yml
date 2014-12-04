@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+  - 2.1.5p273
+
+deploy:
+  provider: heroku
+  strategy: git
+  api_key:
+    secure:
+  app: eeetup
+  on:
+    branch: master
+    repo: codesliced/eatup
+  run:
+    - "rake db:migrate"
+    - restart
