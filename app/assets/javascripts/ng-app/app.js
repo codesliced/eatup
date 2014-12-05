@@ -1,12 +1,12 @@
 angular
-  .module('AngularRails', [
+  .module('Eatup', [
     'ngRoute',
     'templates'
     ]).config(function ($routeProvider, $locationProvider) {
       $routeProvider
         .when('/', {
           templateUrl: 'landing.html',
-          controller: 'LandingCtrl'
+          controller: 'GroupsCtrl'
         });
         $locationProvider.html5Mode(true);
     });

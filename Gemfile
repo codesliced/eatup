@@ -18,6 +18,8 @@ gem 'semantic-ui-sass', '~> 0.19.3.1'
 
 group :development, :test do
   gem 'dotenv-rails'
+end
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'

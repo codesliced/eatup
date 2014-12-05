@@ -8,9 +8,19 @@
   <%= csrf_meta_tags %>
   <base href="/">
 </head>
-<body ng-app="AngularRails">
+<body ng-app="Eatup">
+  <div class="container">
+    <div id="header">
+      <div class="ui" id="mainHead">Eat Up Groups</div>
+    </div>
 
-<%= yield %>
+    <div class="login">
+      <%= render 'layouts/login' %>
+    </div>
+
+    <%= yield %>
+
+  </div>
 
 </body>
 </html>
