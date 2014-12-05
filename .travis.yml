@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+  - 2.1.1
+
+deploy:
+  provider: heroku
+  strategy: git
+  api_key: 
+    secure: GL/TZ3ACkImUnHtMu6Qopk7srqdj0JVy2zriLC6XV18n/mwwqqVfcIyQj7KgDmGBGnJb6FTwldN/SDamFXb72Fictj4YlAIm89ZoIRsItYOd8EwmL1D+G9mKyIIvb2uQw8NGRygHILVlHLCOm1KnCAk+St4gDbfvQ8QJ3PH6QZY=
+  app: eeetup
+  on:
+    branch: master
