@@ -12,5 +12,21 @@
     "dependencies": {
       "three.js"    : "https://raw.github.com/mrdoob/three.js/master/build/three.js"
     }
-  }
+  },
+  "name": "oauth-js",
+  "version": "0.3.0",
+  "main": "dist/oauth.min.js",
+  "description": "OAuth that just works",
+  "license": "apache2",
+  "ignore": [
+      "coffee",
+      "coverage",
+      "js",
+      "node_modules",
+      "tests",
+      "templates",
+      "Gruntfile.js",
+      "package.json",
+      ".gitignore"
+  ]
 }

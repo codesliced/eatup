@@ -15,6 +15,7 @@
 //= require angular
 //= require angular-route
 //= require angular-rails-templates
+//= require oauth-js
 // Loads all Semantic javascripts
 //= require semantic-ui
 //= require_tree ../templates

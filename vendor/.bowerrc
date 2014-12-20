@@ -1,0 +1,4 @@
+// .bowerrc
+{
+  "directory": "vendor/assets/components"
+}
